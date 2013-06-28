@@ -1,0 +1,9 @@
+title: Project Name
+subtitle: Burn Chart
+
+#path: /repo-name
+
+#build config
+server: true
+auto: true
+markdown: rdiscount 

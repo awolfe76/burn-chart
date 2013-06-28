@@ -1,0 +1,28 @@
+{% include head.html %}
+{% include header.html %}
+<!----------
+content is outside the container-fluid to allow for 100% backgrounds.
+---------->
+<div id="content">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span4">
+        <div class="chart-info"><h3>Current Sprint: <span id="current-sprint"></span></h3></div>
+      </div>
+      <div class="span4">
+       <div class="chart-info"><h3>Current Avg. Pace: <span id="current-pace"></span></h3></div>
+      </div>
+      <div class="span4">
+        <div class="chart-info"><h3>Backlog: <span id="backlog"></span></h3></div>
+      </div>
+    </div>
+    <hr>
+    <div class="row-fluid">
+      <div class="span12">
+        <div id="burn-chart"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}
